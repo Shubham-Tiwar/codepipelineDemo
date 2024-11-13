@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install -y curl
 
 # Add the NodeSource repository for Node.js 14.x
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 
 # Install Node.js and npm
 sudo apt install -y nodejs
